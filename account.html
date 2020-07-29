@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-light bg-light">
+    <div class="col-3 d-none d-lg-block">
+      <p class="my-auto ">Тел.+7987-784-58-65</p>
+    </div>
+    <div class="col-3 d-none d-lg-block"> 
+      <p class="my-auto">Welcome to our store</p>
+    </div>
+    <div class="col-6 col-lg-2">
+      <select class="custom-select">
+        <option value="1">AM</option>
+        <option value="2">RU</option>
+        <option value="3">EN</option>
+      </select>
+    </div>
+    <div class="col-6 col-lg-2">
+      <select class="custom-select">
+        <option value="1">֏</option>
+        <option value="2">$</option>
+        <option value="3">€</option>
+      </select>
+    </div>
+      <button type="button" class="btn btn-danger col-2 d-none d-lg-block">
+        Wishlist <span class="badge badge-dark">7</span>
+      </button>
+  </nav>
+      
+
+           <nav class="navbar  navbar-dark bg-dark">
+             
+               <div class="col-5 col-lg-3">
+                 <a  href="index.html">
+                   <img src= "https://www.freepnglogos.com/uploads/mobile-circle-logo-png-30.png" width = "80px">
+                 </a>
+               </div>
+             
+             <div class= "col-6  d-none d-lg-block">
+                <form class="form-inline">
+                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                     <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+                 </form>
+             </div>
+             <div class="col-7 col-lg-3">
+               <div class="dropdown">
+                  <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      My Account
+                   </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#LoginModal">Login</a>
+                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#RegModal">Register</a>
+                      <a class="dropdown-item" href="account.html">Account Settings</a>
+                    </div>
+              </div>
+             </div>
+                
+          </nav>
+      
+      
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                         </button>
+                        <div class="navbar-collapse collapse" id="navbarNavDropdown">
+                         <div class="navbar-nav">
+                       <div class="nav-item dropdown col">
+                      <button class="btn dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Phones
+                  </button>
+                   
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="shop.html">Xiomi</a>
+                    <a class="dropdown-item" href="shop.html">Apple</a>
+                    <a class="dropdown-item" href="shop.html">Samsung</a>
+                  </div>
+                </div>
+               </div>
+             
+             <div class="col-2">
+               <div class="dropdown ">
+                  <button class="btn dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tablets
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Apple</a>
+                    <a class="dropdown-item" href="#">Samsung</a>
+                    <a class="dropdown-item" href="#">Lenovo</a>
+                  </div>
+                </div>
+               </div>
+             
+             <div class="col-2">
+               <div class="dropdown ">
+                  <button class="btn dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Watches
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Microwear</a>
+                    <a class="dropdown-item" href="#">Samsung</a>
+                    <a class="dropdown-item" href="#">Aimoto</a>
+                    <a class="dropdown-item" href="#">Apple</a>
+                  </div>
+                </div>
+               </div>
+             
+             <div class="col-2">
+               <div class="dropdown ">
+                  <button class="btn dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tvs
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Xiaomi</a>
+                    <a class="dropdown-item" href="#">Samsung</a>
+                    <a class="dropdown-item" href="#">Apple</a>
+                  </div>
+                </div>
+               </div>
+             
+             <div class="col-2">
+               <div class="dropdown ">
+                  <button class="btn dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Computers
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Hp</a>
+                    <a class="dropdown-item" href="#">Samsung</a>
+                    <a class="dropdown-item" href="#">Lenovo</a>
+                    <a class="dropdown-item" href="#">Acer</a>
+                  </div>
+                </div>
+               </div>
+             
+             <div class="col-2">
+               <div class="dropdown ">
+                  <button class="btn dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Cameras
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Nikon</a>
+                    <a class="dropdown-item" href="#">Nilox</a>
+                    <a class="dropdown-item" href="#">Canyon</a>
+                    <a class="dropdown-item" href="#">Acme</a>
+                  </div>
+                </div>
+               </div>
+          </nav>
+                
+<!--                 ********************************************************************************************-->
+                <div class="container">
+                  <div class="row">
+                    <div class="alert alert-dark col-12 text-center" role="alert">
+                       <h1 class="alert-link mb-2 mt-2">Welcome User</h1>
+
+                       <div class="col m-auto">
+                         <a href="account.html"><button type="button" class="btn btn-dark text-danger bg-dark "><h6>My Account</h6></button></a>
+                         <a href="info.html"><button type="button" class="btn btn-danger "><h6>My info</h6></button></a>
+                       </div>
+
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- ********************************************************************************************--> 
+
+
+
+                <div class="main container">
+                  <div class="row">
+
+
+                    <div class="col-3">
+                      <h4 class="col bg-dark text-light text-center">My Orders</h4>
+                      
+
+                      <table class="table">
+                          <thead class="thead-dark">
+                            <tr>
+                              <th scope="col" class="text-danger">Orders</th>
+                              <th scope="col" class="text-danger">Data</th>
+                              <th scope="col" class="text-danger">Total</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>0.25</td>
+                              <td>13.01</td>
+                              <td>159,900 ֏</td>
+                            </tr>
+                            <tr>
+                              <td>0.25</td>
+                              <td>18.04</td>
+                              <td>390,900 ֏</td>
+                            </tr>
+                            <tr>
+                              <td>0.25</td>
+                              <td>13.01</td>
+                              <td>251,900 ֏</td>
+                            </tr> 
+                          </tbody>
+                        </table>
+                        
+                      <div class=" text-center mb-3">
+                        <a href="#"  class="btn btn-dark text-danger">See All</a>
+                      </div>
+
+                        
+
+                        <h4 class="col bg-dark text-light text-center">My Wish List</h4>
+                        <table class="table">
+                          <tbody>
+                            <tr>
+                              <td class="h6 ">Iphone</td>
+                              <td><img src="https://cibermart.com/43796-large_default/apple-iphone-6s-plus-used-iphone-6sp-dual-core-55-12mp-2g-ram-163264128g-rom-fingerprint-4g-lte-unlocked-mobile-phone.jpg" class="img-fluid w-100"  ></td>
+                              <td>159,900֏</td>
+                            </tr>
+                            <tr>
+                              <td class="h6">Samsung</td>
+                              <td><img src="https://images.samsung.com/is/image/samsung/p5/ru/galaxy-s20/pcd/feature-benefit-kv-galaxy-s20-ultra-gray.png?$ORIGIN_PNG$" class="img-fluid w-100"  ></td>
+                              <td>390,900֏</td>
+                            </tr>
+                            <tr>
+                              <td class="h6">Lg</td>
+                              <td><img src="https://w7.pngwing.com/pngs/194/802/png-transparent-lg-v30-lg-g6-samsung-galaxy-smartphone-lte-lg-electronics-gadget-mobile-phone.png" class="img-fluid w-100"  ></td>
+                              <td>251,900֏</td>
+                            </tr> 
+                          </tbody>
+                        </table>
+
+                          <div class=" text-center mb-3">
+                            <a href="#"  class="btn btn-dark text-danger">See All</a>
+                          </div>
+
+                    </div>
+
+
+                    <div class="col-6">
+                      <h4 class="col bg-dark text-light text-center">Recent Activity</h4>
+                        <div class="row">
+                          <div class="col-4">
+                            <img src="https://cibermart.com/43796-large_default/apple-iphone-6s-plus-used-iphone-6sp-dual-core-55-12mp-2g-ram-163264128g-rom-fingerprint-4g-lte-unlocked-mobile-phone.jpg" class="img-fluid w-100"  >
+                          </div>
+                          <div class="col-4">
+                            <p class="w-100"><a href="product.html" class="h5">iPhone 6s </a> <br> смартфоны корпорации Apple, работающие на iOS 9 , представленные 9 сентября 2015 года. </p>
+                          </div>
+                          <div class="col-4 m-auto ">
+
+                            <h2>379,900֏</h2>
+                            <a href="#"  class="btn btn-dark text-danger">See All</a>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-4">
+                            <img src="https://cibermart.com/43796-large_default/apple-iphone-6s-plus-used-iphone-6sp-dual-core-55-12mp-2g-ram-163264128g-rom-fingerprint-4g-lte-unlocked-mobile-phone.jpg" class="img-fluid w-100"  >
+                          </div>
+                          <div class="col-4">
+                            <p class="w-100"><a href="product.html" class="h5">iPhone 6s </a> <br> смартфоны корпорации Apple, работающие на iOS 9 , представленные 9 сентября 2015 года. </p>
+                          </div>
+                          <div class="col-4 m-auto ">
+
+                            <h2>379,900֏</h2>
+                            <a href="#"  class="btn btn-dark text-danger">See All</a>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-4">
+                            <img src="https://cibermart.com/43796-large_default/apple-iphone-6s-plus-used-iphone-6sp-dual-core-55-12mp-2g-ram-163264128g-rom-fingerprint-4g-lte-unlocked-mobile-phone.jpg" class="img-fluid w-100"  >
+                          </div>
+                          <div class="col-4">
+                            <p class="w-100"><a href="product.html" class="h5">iPhone 6s </a> <br> смартфоны корпорации Apple, работающие на iOS 9 , представленные 9 сентября 2015 года. </p>
+                          </div>
+                          <div class="col-4 m-auto ">
+
+                            <h2>379,900֏</h2>
+                            <a href="#"  class="btn btn-dark text-danger">See All</a>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-4">
+                            <img src="https://cibermart.com/43796-large_default/apple-iphone-6s-plus-used-iphone-6sp-dual-core-55-12mp-2g-ram-163264128g-rom-fingerprint-4g-lte-unlocked-mobile-phone.jpg" class="img-fluid w-100"  >
+                          </div>
+                          <div class="col-4">
+                            <p class="w-100"><a href="product.html" class="h5">iPhone 6s </a> <br> смартфоны корпорации Apple, работающие на iOS 9 , представленные 9 сентября 2015 года. </p>
+                          </div>
+                          <div class="col-4 m-auto ">
+
+                            <h2>379,900֏</h2>
+                            <a href="#"  class="btn btn-dark text-danger">See All</a>
+                          </div>
+                        </div>
+                      
+                    </div>
+                    <div class="col-3">
+                      <h4 class="col bg-dark text-light text-center">Evnts</h4>
+                        <div  class="card" style="width: 18rem;">
+                        <a href="https://www.adjarabet.am/hy"><img class="card-img-top" src="https://staticfiles.adjarabet.am/static.am/banner_widgets/7_hy.jpg" alt="Card image cap"></a>
+                        <div class="card-body">
+                          <p class="display-4">Ajarabet</p>
+                          <a  href="https://www.adjarabet.am/hy" class="card-title text-danger h5">Register Now !!!</a>
+                        </div>
+                        <a href="https://www.adjarabet.am/hy"><img class="card-img-top" src="https://staticfiles.adjarabet.am/static.am/banner_widgets/9_hy.jpg" alt="Card image cap"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="container " >
+
+                  <div class="row">
+                    <a href="#" class=" bg-dark text-light list-group-item list-group-item-action text-uppercase font-weight-bold  text-center col-lg-3 col-sm-12">
+                      Contact us
+                    </a>
+                    <a href="#" class=" bg-dark text-light list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+                      Live chat
+                    </a>
+                    <a href="#" class=" bg-dark text-light list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+                      Shipping
+                    </a>
+                    <a href="#" class=" bg-dark text-light list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+                      Term & conditions
+                    </a>
+                  </div>
+                  <div class="row d-none d-lg-flex">
+                    <div class="col pr-0 border">
+                      <div class="list-group">
+                        <h5 class="text-uppercase">Samsung</h5>
+                  <a href="#" class="list-group-item-action">Samsung Galaxy Z Flip</a>
+                  <a href="#" class="list-group-item-action">Samsung Galaxy S10 Plus</a>
+                  <a href="#" class="list-group-item-action ">amsung Galaxy S9 Plus</a>
+
+                </div>
+              </div>
+              <div class="col pr-0 border">
+                <div class="list-group">
+                  <h5 class="text-uppercase">Apple</h5>
+                  <a href="#" class="list-group-item-action">iPhone SE</a>
+                  <a href="#" class="list-group-item-action ">iPhone 11 Pro</a>
+                  <a href="#" class="list-group-item-action">iPhone 11 Pro Max</a>
+
+                </div>
+              </div>
+              <div class="col pr-0 border">
+                <div class="list-group">
+                  <h5 class="text-uppercase">Lenovo</h5>
+                  <a href="#" class="list-group-item-action">Lenovo Vibe X2 Pro</a>
+                  <a href="#" class="list-group-item-action">Lenovo A806</a>
+                  <a href="#" class="list-group-item-action">Lenovo K3 Music Lemon</a>
+
+                </div>
+              </div>
+              <div class="col pr-0 border">
+                <div class="list-group">
+                  <h5 class="text-uppercase">Lg</h5>
+                  <a href="#" class="list-group-item-action ">LG G7 fit</a>
+                  <a href="#" class="list-group-item-action">LG K9</a>
+                  <a href="#" class="list-group-item-action">LG G7 ThinQ</a>
+
+                </div>
+              </div>
+              <div class="col pr-0 border">
+                <div class="list-group">
+                  <h5 class="text-uppercase">Redmi</h5>
+                  <a href="#" class="list-group-item-action ">Xiaomi Mi</a>
+                  <a href="#" class="list-group-item-action">Xiaomi Mi Note</a>
+                  <a href="#" class="list-group-item-action">Xiaomi Mi Max</a>
+
+                      </div>
+                    </div>
+                  </div>
+                       <nav class=" row bg-dark text-white navbar navbar-dark  ">
+                            <div class=" col-lg-6 d-none d-lg-block align-items-baseline">
+                             <img src="https://image.flaticon.com/icons/svg/889/889102.svg" class="px-1" width="25px">
+                             <img src="https://image.flaticon.com/icons/svg/1384/1384063.svg" class="px-1" width="25px">
+                             <img src="https://image.flaticon.com/icons/svg/2965/2965363.svg" class="px-1" width="25px">
+                             <img src="https://image.flaticon.com/icons/svg/732/732200.svg" class="px-1" width="25px">
+                           </div>
+                           <div  class="col-12 col-lg-6 ">
+                            <p>© Tumo Center For Ccreative Technologies</p>
+                           </div>
+                         </nav>      
+        </div>
+    </div>
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            <div class="modal fade" id="RegModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                       <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">First Name</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Last Name</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Mobile Number & Email</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">New Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div >
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                  <label class="form-check-label" for="inlineRadio1">Female</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                  <label class="form-check-label" for="inlineRadio2">Male</label>
+                                </div>
+                                 <div class="form-check form-check-inline ">
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                  <label class="form-check-label" for="inlineRadio2">Custom</label>
+                                </div>
+                         </div>
+                          <br>
+                             <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+<!--     ************************************************************************************************************************************** -->
+    
+    
+      <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+               <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
